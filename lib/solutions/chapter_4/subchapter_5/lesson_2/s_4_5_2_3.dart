@@ -36,7 +36,7 @@ class MyNameWidgetState extends State<MyNameWidget> {
         const SizedBox(height: 20),
         ElevatedButton(
           onPressed: _setName,
-          child: const Text('Name anzeigen'),
+          child: const Text("Name anzeigen"),
         ),
       ],
     );

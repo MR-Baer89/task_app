@@ -22,7 +22,7 @@ class ShowHideNameWidgetState extends State<ShowHideNameWidget> {
   void toggleName() {
     setState(() {
       if (name.isEmpty) {
-        name = "   ";
+        name = "Mr. Bär";
         buttonText = "Name verstecken";
       } else {
         name = '';
