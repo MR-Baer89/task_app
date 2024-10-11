@@ -35,15 +35,15 @@ class _S5111State extends State<S5111> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Container(
-                width: 50,
-                height: 50,
-                color: _isRedFirst ? Colors.red : Colors.green,
+                width: 100,
+                height: 100,
+                color: _isRedFirst ? Colors.red : Colors.blue,
               ),
               const SizedBox(width: 20),
               Container(
-                width: 50,
-                height: 50,
-                color: _isRedFirst ? Colors.green : Colors.red,
+                width: 100,
+                height: 100,
+                color: _isRedFirst ? Colors.blue : Colors.red,
               ),
             ],
           ),
